@@ -10,6 +10,19 @@
        width: fit-content;
     height: fit-content;
 }
+
+@keyframes example{
+    0%{
+        top: 18rem; 
+        opacity: 20%;
+    }
+
+    100%
+    {
+        top: 1.5rem;
+        opacity: 100%;
+    }
+}
 .card{
     /* margin-left: 2.75rem; */
     position: relative;
@@ -20,6 +33,8 @@
     align-items: center; */
     width: fit-content;
     height: 600px;
+    animation-name: example;
+    animation-duration: 1.5s;
 }
 .card2{
     border-radius: 50px;;
@@ -30,6 +45,9 @@
     align-items: center; */
     width: fit-content;
     height: 600px;
+    animation-name: example;
+    animation-duration: 1.5s;
+    /* animation-delay: 1s; */
 }
 .card3{
     border-radius: 50px;;
@@ -40,4 +58,7 @@
     align-items: center; */
     width: fit-content;
     height: 600px;
+    animation-name: example;
+    animation-duration: 1.5s;
+    /* animation-delay: 1s; */
 }
